@@ -1,0 +1,30 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.yellow {
+  color: #faaf00;
+}
+
+tui-rating {
+  margin-top: 1rem;
+}
+
+.bottom-row {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.open-dialog-btn {
+  width: 100%;
+}
+
+.rate-description {
+  max-height: 6rem;
+  overflow: hidden;
+  text-overflow: fade;
+}
